@@ -100,7 +100,6 @@ def evaluateClient(sock, addr):
     print("Closed");
 
 serverA = MyServer(evaluateClient)
-port = 2506
+port = 7998
 print("My Port Is: " + str(port))
-# serverA.listen("192.168.240.35", port)
-serverA.listen("169.254.155.222", port)
+serverA.listen("0.0.0.0", port)
