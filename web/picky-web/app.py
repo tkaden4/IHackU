@@ -11,4 +11,3 @@ def index():
         return key
     else:
         return "I only give out keys to people who used chrome on september 2nd, 2008"
-        

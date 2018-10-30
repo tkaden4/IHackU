@@ -4,4 +4,4 @@ COPY . /app
 WORKDIR /app
 RUN pip install flask gunicorn
 EXPOSE 80
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:80", "app:app"]
+CMD env KEY="ihacku{use_user_agents_for_fun!}" gunicorn -w 4 -b 0.0.0.0:80 app:app
