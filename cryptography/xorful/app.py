@@ -11,7 +11,7 @@ key = os.environ["KEY"]
 def root():
     if request.method == "POST":
         plaintext = request.form["plaintext"]
-        encrypted = encrypt(plaintext, key)
+        encrypted = encrypt(plaintext.encode("ascii"), key.encode("ascii"))
         return f"""
             <html>
             <head>
