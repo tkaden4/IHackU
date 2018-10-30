@@ -1,0 +1,7 @@
+We've recovered the credientials for an employee at a rival organization,
+but the login page doesnt let us log in.
+
+Username: jbob1975
+Password: hunter2
+
+http://<url>/login

@@ -1,0 +1,25 @@
+body {
+	background: #000000;
+	background-repeat: repeat;
+	background-size: 50px 50px;
+}
+
+#main {
+	top: 0px;
+	width: 960px;
+	margin: 0px auto;
+	position: relative;
+	padding-bottom: 20px;
+	border: none;
+	margin-top: 10px;
+}
+
+.island {
+	padding: 4px;
+	background-color: rgb(91, 132, 88);
+	background-size: 1000px 1000px;
+	background-position: -30px -100px;
+	color: #FFFFFF;
+	font: 1.5em monospace;
+	margin-bottom: 10px;
+}
